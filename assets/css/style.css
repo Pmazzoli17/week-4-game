@@ -1,0 +1,22 @@
+.container {
+  background-image: url(../images/congruent_pentagon.png);
+}
+
+.title {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: bolder;
+  font-color: black;
+  font-size: 50px;
+  background-color: orange;
+  float: left;
+}
+
+#randomNumber{
+text-align: left;
+}
+
+.btn-default {
+  margin: 10px;
+}

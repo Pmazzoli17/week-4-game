@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Crystals Collector</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+		<div class="col-xs-12 col-md-12">
+		<h1 class="title">Crystals Collector!</h1>
+		</div>
+	</div>
+
+	<div class="row">
+	  <div class="col-xs-8 col-md-6">
+		<div class="jumbotron">
+			<div class="text">
+			<p>You will be given a random number at the start of the game.
+			</p>
+			<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
+			</p>
+			<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+			</p>
+			<p>The value of each crystal is hidden from you until you click on it.
+			</p>
+			<p>Each time when the game starts, the game will change the values of each crystal.
+			</p>
+			</div>
+		</div>
+	  </div>
+	</div>
+	<div class="row">
+	<div class="col-xs-2 col-md-2">
+     <div class="jumbotron">
+     <div class="text">
+	   <div id="randomNumber">
+	   </div>
+	   </div>
+	  </div>
+	  </div>
+ 	<div class="col-xs-1 col-md-2">
+    <div class="jumbotron">
+     <div class="text">
+      <div id="wins">Wins:</div>
+            <br>
+            <br>
+         <div id="losses">Losses:</div>
+        </div>
+       </div>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-xs-6 col-md-6">
+        <div id="images">
+            <div class="btn-group" role="group" aria-label="jewels">
+  			<button type="button" class="btn btn-default redJewel"><img src="assets/images/redJewel.png"  alt="red-jewel" width = 90 height = 80></button>
+ 			<button type="button" class="btn btn-default blueJewel"><img src="assets/images/blueJewel.png" alt="blue-jewel" width = 90 height = 80></button>
+  			<button type="button" class="btn btn-default yellowJewel"><img src="assets/images/yellowJewel.png" alt="yellow-jewel" width = 90 height = 80></button>
+  			<button type="button" class="btn btn-default greenJewel"><img src="assets/images/greenJewel.png" alt="green-jewel" width = 90 height = 80></button>
+			</div>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+    <div class="col-xs-2 col-md-4">
+     <div class="jumbotron">
+     <div class="text">
+	   <div id="userScore">Your total score is:</div>
+	   </div>
+	  </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+ 
+</body>
+</html>
